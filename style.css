@@ -1,0 +1,12 @@
+#target {
+	border: 1px solid red;
+	background: yellow;
+	width: 100px;
+	transition-property: width, background;
+	transition-duration: 1s;
+}
+
+#target:hover {
+	width: 200px;
+	background: red;
+}
